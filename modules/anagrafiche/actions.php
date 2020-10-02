@@ -43,6 +43,7 @@ switch (post('op')) {
         $anagrafica->ragione_sociale = post('ragione_sociale');
         $anagrafica->nome = post('nome');
         $anagrafica->cognome = post('cognome');
+        $anagrafica->soprannome = post('soprannome');
         $anagrafica->tipo = post('tipo');
         $anagrafica->data_nascita = post('data_nascita');
         $anagrafica->luogo_nascita = post('luogo_nascita');
