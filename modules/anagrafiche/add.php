@@ -24,11 +24,15 @@ echo '
 
 	<div class="row">
 
-		<div class="col-md-6">
+		<div class="col-md-4">
 			{[ "type": "text", "label": "'.tr('Cognome').'", "name": "cognome", "required": 0 ]}
 		</div>
+        
+        <div class="col-md-4">
+			{[ "type": "text", "label": "'.tr('Sopranome').'", "name": "nome", "id": "soprannome", "required": 0 ]}
+		</div>
 
-		<div class="col-md-6">
+		<div class="col-md-4">
 			{[ "type": "text", "label": "'.tr('Nome').'", "name": "nome", "id": "nome_", "required": 0 ]}
 		</div>
 
