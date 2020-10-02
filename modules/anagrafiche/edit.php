@@ -65,15 +65,19 @@ if (!$is_cliente) {
 
 				<div class="row">
 
-					<div class="col-md-4">
+					<div class="col-md-3">
 							{[ "type": "text", "label": "<?php echo tr('Cognome'); ?>", "name": "cognome", "required": 0, "value": "$cognome$", "extra": "" ]}
 					</div>
 
-					<div class="col-md-4">
+					<div class="col-md-3">
 							{[ "type": "text", "label": "<?php echo tr('Nome'); ?>", "name": "nome", "required": 0, "value": "$nome$", "extra": "" ]}
 					</div>
+                    
+                    <div class="col-md-4">
+							{[ "type": "text", "label": "<?php echo tr('Soprannome'); ?>", "name": "soprannome", "required": 0, "value": "$soprannome$", "extra": "" ]}
+					</div>
 
-					<div class="col-md-4">
+					<div class="col-md-3">
                         {[ "type": "text", "label": "<?php echo tr('Codice fiscale'); ?>", "maxlength": 16, "name": "codice_fiscale", "class": "text-center alphanumeric-mask text-uppercase", "value": "$codice_fiscale$", "validation": "codice_fiscale" ]}
                     </div>
 
